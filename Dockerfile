@@ -9,7 +9,8 @@ RUN apt-get update
 RUN apt-get install -y python
 RUN apt-get install -y build-essential python-dev
 RUN apt-get install -y python-pip
-RUN apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
+RUN apt-get install -y python-numpy
+RUN apt-get install -y python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose
 
 #USER main
 # Install requirements for Python 2
